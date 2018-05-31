@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="95dp"
+            android:layout_marginBottom="97dp"
             android:text="@string/bsd"
             android:textColor="@android:color/background_light"
             android:textSize="22sp" />
