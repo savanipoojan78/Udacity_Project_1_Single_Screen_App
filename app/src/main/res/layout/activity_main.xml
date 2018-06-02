@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity"
-    android:background="@drawable/part_2">
+    android:background="@drawable/part_2"
+    android:paddingLeft="0dp"
+    tools:context=".MainActivity">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-
 
 
         <android.support.v4.view.ViewPager
@@ -36,7 +35,7 @@
             android:layout_marginTop="8dp"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.03"
@@ -54,12 +53,93 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="@string/moto"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
             tools:text="@string/moto" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="20dp"
+            android:text="@string/email"
+            android:textColorLink="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="20dp"
+            android:text="@string/phone"
+            android:textColorLink="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="20dp"
+            android:text="@string/address"
+
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:drawablePadding="20dp"
+
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maps" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_public_black_24dp"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_public_black_24dp"
+            android:text="@string/website"
+            android:textColorLink="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 
     </android.support.constraint.ConstraintLayout>
