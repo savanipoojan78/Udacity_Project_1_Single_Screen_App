@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">SRK</string>
     <string name="bsd">Shree Ramkrishna Exports</string>
-    <string name="moto">\"When we do business we considered diamond as our God\"</string>
+    <string name="moto">\"When we do business we considered diamond as our God.\"</string>
     <string name="email">vishal.mj@srk.me</string>
-    <string name="phone"> +919820966900</string>
+    <string name="phone">02614040544</string>
 
     <string name="address">Surat,Gujarat,India.</string>
     <string name="website">https://srk.one/</string>

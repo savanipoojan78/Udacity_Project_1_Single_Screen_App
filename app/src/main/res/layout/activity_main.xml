@@ -2,21 +2,22 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/part_2"
-    android:paddingLeft="0dp"
+
     tools:context=".MainActivity">
 
     <android.support.constraint.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
         <android.support.v4.view.ViewPager
             android:id="@+id/view"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="203dp"
+
 
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
             android:autoLink="email"
             android:drawableLeft="@drawable/ic_email_black_24dp"
             android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
             android:text="@string/email"
             android:textColorLink="@color/white"
             android:textSize="16sp"
@@ -88,6 +90,7 @@
             android:autoLink="phone"
             android:drawableLeft="@drawable/ic_phone_black_24dp"
             android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
             android:text="@string/phone"
             android:textColorLink="@color/white"
             android:textSize="16sp"
@@ -104,6 +107,7 @@
             android:autoLink="map"
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
             android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
             android:text="@string/address"
 
             android:textColor="@color/white"
@@ -120,6 +124,7 @@
             android:layout_marginTop="16dp"
             android:drawableLeft="@drawable/ic_access_time_black_24dp"
             android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_access_time_black_24dp"
 
             android:text="@string/time"
             android:textColor="@color/white"
